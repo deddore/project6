@@ -29,6 +29,7 @@ header{
 .menu{
     display: inline-block;
     vertical-align: middle;
+    margin-left: 80px;
 }
 
 .menu a{
@@ -88,6 +89,7 @@ header{
     font-size: 20px;
     color: #9f9f9f;
     line-height: 1.8;
+    max-width: 650px;
 }
 
 .shop-btn{
