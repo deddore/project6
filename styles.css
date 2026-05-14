@@ -10,93 +10,84 @@ body{
 }
 
 .container{
-    display: flex;
-    flex-direction: column;
+    inline-size: 95%;
 }
 
-/* HEADER */
-
 header{
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
+    border-bottom: 1px solid #343434;
     min-height: 80px;
-    border-bottom: 1px solid #3a3a3a;
 }
 
 .logo{
+    display: inline-block;
     color: #2fb65c;
     font-size: 22px;
     font-weight: 700;
+    vertical-align: middle;
 }
 
 .menu{
-    display: flex;
-    align-items: center;
-    gap: 45px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .menu a{
+    display: inline-block;
     text-decoration: none;
     color: white;
     font-size: 18px;
     position: relative;
+    margin-right: 40px;
 }
 
 .menu a.active::after{
     content: "";
     position: absolute;
     left: 0;
-    top: 45px;
-    height: 3px;
+    top: 40px;
+    block-size: 3px;
+    inline-size: 100%;
     background: #2fb65c;
-    inset-inline: 0;
 }
 
 .login-btn{
+    display: inline-block;
+    vertical-align: middle;
     background: #43a957;
     border: none;
     color: white;
     font-size: 16px;
     font-weight: bold;
     border-radius: 6px;
-    block-size: 42px;
+    block-size: 40px;
     inline-size: 110px;
     cursor: pointer;
 }
 
-/* HERO */
-
 .hero{
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
     min-height: 85vh;
 }
 
 .hero-text{
-    display: flex;
-    flex-direction: column;
-    gap: 30px;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .small-title{
     font-size: 18px;
+    color: #d0d0d0;
 }
 
 .hero-text h1{
     font-size: 72px;
     line-height: 1;
-    color: #d6d6d6;
+    color: #d8d8d8;
 }
 
 .hero-text p{
+    font-size: 20px;
     color: #9f9f9f;
-    font-size: 18px;
     line-height: 1.8;
-    display: flex;
-    flex-direction: column;
-    gap: 5px;
 }
 
 .shop-btn{
@@ -112,9 +103,8 @@ header{
 }
 
 .hero-image{
-    display: flex;
-    align-items: center;
-    justify-content: center;
+    display: inline-block;
+    vertical-align: middle;
 }
 
 .hero-image img{
