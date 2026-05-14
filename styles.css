@@ -4,8 +4,7 @@ body{
 }
 
 .container{
-    max-width:1200px;
-    margin:0 auto;
+    padding:0 40px;
 }
 
 .header{
@@ -57,7 +56,8 @@ body{
 }
 
 .hero-text{
-    padding:60px;
+    padding:30px 60px;
+    flex:1;
 }
 
 .welcome{
@@ -93,6 +93,14 @@ body{
     font-weight:bold;
 }
 
+.hero-image{
+    display:flex;
+    align-items:flex-end;
+    padding-right:40px;
+    flex:1;
+    justify-content:flex-end;
+}
+
 .hero-image img{
-    max-height:450px;
+    height:450px;
 }
