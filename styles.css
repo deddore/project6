@@ -9,8 +9,8 @@ body{
 
 .header{
     display:flex;
-    justify-content:space-between;
     align-items:center;
+    gap:80px;
     padding:25px 0;
     border-bottom:1px solid #d7e9d7;
 }
@@ -105,4 +105,8 @@ body{
 
 .hero-image img{
     height:450px;
+}
+
+.login{
+    margin-left:auto;
 }
