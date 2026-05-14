@@ -89,7 +89,8 @@ header{
     font-size: 20px;
     color: #9f9f9f;
     line-height: 1.8;
-    max-width: 650px;
+    display: block;
+    max-inline-size: 500px;
 }
 
 .shop-btn{
